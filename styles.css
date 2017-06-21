@@ -1,7 +1,8 @@
 html, body {
- margin: 10px;
- padding: 0px;
- border: 0px;
+	margin: 10px;
+	padding: 0px;
+	border: 0px;
+ 	font-family: 'Pangolin',cursive;
  }
 
 .game{
@@ -221,17 +222,23 @@ h{
 }
 
 #instru{
-	font-family: 'Pangolin', cursive;
 	margin-top:40px;
 	margin-left:30px;
 }
 
 #phasesOfGame{
-	font-family: 'Pangolin',cursive;
 	margin-left:30px;
 }
 
 footer{
 	font-size:20px;
 	margin-bottom:50px;
+}
+
+.pRed{
+	background-color: #ff8080;
+}
+
+.pBlue{
+	background-color: #80aaff;
 }
