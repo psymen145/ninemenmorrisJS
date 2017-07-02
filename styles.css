@@ -37,22 +37,26 @@ html, body {
 
 .player1{
 	position:fixed;
-	bottom:0px;
-	left:0px;
+	top:0px;
+	right:0px;
 	background-color: #ff8080;
 	width: 200px;
 	height: 50px;
-	opacity: 0.5;
+	opacity: 0.7;
+	font-size:40px;
+	padding: 10px;
 }
 
 .player2{
 	position:fixed;
-	left:200px;
+	right:0px;
 	bottom:0px;
 	background-color: #80aaff;
 	width: 200px;
 	height: 50px;
-	opacity: 0.5;
+	opacity: 0.7;
+	font-size:40px;
+	padding: 10px;
 }
 
 h{
@@ -241,4 +245,16 @@ footer{
 
 .pBlue{
 	background-color: #80aaff;
+}
+
+.highlight-nodes{
+	box-shadow: 0px 0px 2px 4px yellow;
+}
+
+.is-disabled{
+	pointer-events:none;
+}
+
+.highlight-turn{
+	border: 1px solid;
 }
